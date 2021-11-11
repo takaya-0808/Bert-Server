@@ -11,6 +11,11 @@ soup = BeautifulSoup(html.content, "html.parser")
 title = soup.find("title").text
 ```
 
+## Usage
+```
+docker run -v /Users/miyagitakaaki/Workdir/Bert-Server:/src -d -p 8090:8000 bert-server python manage.py runserver 0.0.0.0:8000
+```
+
 ## Model(BERT)
 
 

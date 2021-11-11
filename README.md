@@ -19,7 +19,7 @@ docker build -t [docker image] .
 ```
 dockerの起動
 ```
-docker run -v full path : docker pass -d -p [local port : docker port] [docker image] python manage.py runserver 0.0.0.0:8000
+docker run -v [full path : docker pass] -d -p [local port : docker port] [docker image] python manage.py runserver 0.0.0.0:8000
 ```
 docker起動の確認
 ```

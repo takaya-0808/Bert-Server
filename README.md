@@ -12,8 +12,18 @@ title = soup.find("title").text
 ```
 
 ## Usage
+
+dockerをビルドする
 ```
-docker run -v /Users/miyagitakaaki/Workdir/Bert-Server:/src -d -p 8090:8000 bert-server python manage.py runserver 0.0.0.0:8000
+docker build -t [docker image] .
+```
+dockerの起動
+```
+docker run -v full path : docker pass -d -p [local port : docker port] [docker image] python manage.py runserver 0.0.0.0:8000
+```
+docker起動の確認
+```
+docker ps
 ```
 
 ## Model(BERT)

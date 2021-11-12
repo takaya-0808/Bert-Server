@@ -1,6 +1,10 @@
 # Bert-Server
 + レビュー採点の推定
 + どのタイトルなのかを推定
+
+## データのスクレイピング 
+![picture 2](data/ScrapingMovieReview.drawio.png)
+
 ## データ取得
 
 サンプルコード

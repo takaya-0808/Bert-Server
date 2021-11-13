@@ -33,6 +33,11 @@ docker ps
 
 + docker-compose.ymlの場合
 
+```
+docker-compose run web django-admin startproject [project_name] .  
+python manage.py startapp [app_name]
+```
+
 ## Model(BERT)
 
 

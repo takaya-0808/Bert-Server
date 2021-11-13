@@ -17,6 +17,7 @@ title = soup.find("title").text
 
 ## Usage
 
++ Dockerfileの場合
 dockerをビルドする
 ```
 docker build -t [docker image] .
@@ -29,6 +30,8 @@ docker起動の確認
 ```
 docker ps
 ```
+
++ docker-compose.ymlの場合
 
 ## Model(BERT)
 
